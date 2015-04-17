@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Esecim</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_oy_kullanimi">OyKullanimi</string>
+    <string name="title_activity_secmen_bilgileri">SecmenBilgileri</string>
+    <string name="title_activity_oy_kullanma">OyKullanma</string>
+
+</resources>

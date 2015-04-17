@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.cengiz.esecim" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.cengiz.esecim.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.cengiz.esecim.OyKullanimi"
+            android:label="@string/title_activity_oy_kullanimi" >
+        </activity>
+        <activity
+            android:name="com.cengiz.esecim.SecmenBilgileri"
+            android:label="@string/title_activity_secmen_bilgileri" >
+        </activity>
+        <activity
+            android:name="com.cengiz.esecim.OyKullanma"
+            android:label="@string/title_activity_oy_kullanma" >
+        </activity>
+    </application>
+
+</manifest>

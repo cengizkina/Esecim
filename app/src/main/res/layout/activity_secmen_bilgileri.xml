@@ -1,0 +1,116 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.cengiz.esecim.SecmenBilgileri"
+    android:id="@+id/hello">
+
+    <ImageView
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:id="@+id/imageView"
+        android:adjustViewBounds="false"
+        android:background="@drawable/user"
+        android:tint="@drawable/user"
+        android:visibility="visible"
+        android:baselineAlignBottom="false"
+        android:clickable="false"
+        style="@style/AppTheme"
+        android:layout_toEndOf="@+id/textView8" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Adı"
+        android:id="@+id/textView7"
+        android:layout_below="@+id/imageView"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="63dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Soyad"
+        android:id="@+id/textView8"
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Tc "
+        android:id="@+id/textView9"
+        android:layout_below="@+id/textView8"
+        android:layout_alignRight="@+id/textView8"
+        android:layout_alignEnd="@+id/textView8"
+        android:layout_marginTop="47dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Anne Adı"
+        android:id="@+id/textView10"
+        android:layout_below="@+id/textView9"
+        android:layout_alignRight="@+id/textView9"
+        android:layout_alignEnd="@+id/textView9"
+        android:layout_marginTop="58dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="AD"
+        android:id="@+id/textViewAd"
+        android:layout_alignTop="@+id/textView7"
+        android:layout_alignLeft="@+id/imageView"
+        android:layout_alignStart="@+id/imageView" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Soyad"
+        android:id="@+id/textViewSoyad"
+        android:layout_centerVertical="true"
+        android:layout_alignLeft="@+id/textViewAd"
+        android:layout_alignStart="@+id/textViewAd" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="TC"
+        android:id="@+id/textViewTc"
+        android:layout_alignTop="@+id/textView9"
+        android:layout_alignLeft="@+id/textViewSoyad"
+        android:layout_alignStart="@+id/textViewSoyad" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="AnneAd"
+        android:id="@+id/textViewAnneAd"
+        android:layout_alignTop="@+id/textView10"
+        android:layout_alignLeft="@+id/textViewTc"
+        android:layout_alignStart="@+id/textViewTc" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tamam"
+        android:id="@+id/buttonTamam"
+        android:layout_below="@+id/textView10"
+        android:layout_toRightOf="@+id/textViewSoyad"
+        android:layout_toEndOf="@+id/textViewSoyad"
+        android:layout_marginTop="61dp" />
+
+</RelativeLayout>
